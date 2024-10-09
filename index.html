@@ -33,6 +33,7 @@
     box-sizing: border-box;
 }
 
+
 .container {
     display: flex;
     align-items: flex-start; /* Align items at the start of the container */
@@ -434,13 +435,26 @@
         id="cab-booking"
         class="cab-booking-section"
         style="
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          margin-top: 10px;
-        "
+        display: flex;
+        text-align: center;
+        justify-content: center;"
+        
       >
+
+      <div class=" cab-booking-section" style="
+      background-color: white;
+      width: 40vw;
+      border-radius: 20px;
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+      
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    " >
         <h2
           style="
             font-size: 3em;
@@ -535,8 +549,9 @@
             /><br /><br />
           </div>
 
-          <button
+          <button class="hover-button" 
             style="
+              
               background-color: #007bff;
               color: white;
               border: none;
@@ -550,12 +565,14 @@
               align-self: center;
               padding: 10px;
               margin-bottom: 20px;
+              
             "
             type="submit"
           >
             Book now
           </button>
         </form>
+      </div>
       </section>
 
       <!-- recommendations -->
